@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'pecita';
+  src: url(assets/fonts/pecita/Pecita.otf);
+}
+
+section {
+  min-height: 100vh;
+}
+
+body {
+  background-color: #e5e5e5;
+  font-family: 'poppins', sans-serif;
+}
+
+#projects {
+  padding: 5rem;
+}
+
+#content {
+  padding-top: 0.5rem;
+}
+
+#about {
+  padding: 5rem;
+}
+
+#contact {
+  padding: 5rem;
+}

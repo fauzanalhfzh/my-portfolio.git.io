@@ -8,6 +8,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
 
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- end of aos -->
+
     <!-- my CSS -->
     <link rel="stylesheet" href="assets/styles/style.css" />
     <!-- end of my CSS -->
@@ -20,7 +24,8 @@
 <body id="home">
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark shadow-sm sticky-top opacity-75"
-        style="background-color: #14213d; font-family: 'Poppins', sans-serif">
+        style="background-color: #14213d; font-family: 'Poppins', sans-serif" data-aos="fade-down"
+        data-aos-duration="1500">
         <div class="container">
             <a class="navbar-brand fw-bold" href="#">Moh. Fauzan Alhafizh</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -46,23 +51,30 @@
         </div>
     </nav>
     <!-- end of navbar -->
-
     <!-- content -->
     <section id="content">
         <div class="container text-start">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="pt-5" style="font-size: 30px;">Hi, there 🖖🏻 I'm</div>
-                    <div class="fw-bold" style="font-size: 70px;font-family: 'pecita';">Mohammad</div>
-                    <div class="fw-bold" style="font-size: 70px;font-family: 'pecita';">Fauzan Alhafizh</div>
-                    <div class="fw-semibold" style="font-size: 25px; color: #FCA311;">UI/Ux Designer + Developer</div>
-                    <p class="fs-5 pt-2">Halo ini design portofolio yang mau saya deploy minggu depan mungkin doakan
+                    <div class="pt-5 heading1" style="font-size: 30px;" data-aos="fade-up-right"
+                        data-aos-duration="1500">Hi,
+                        there 🖖🏻 I'm</div>
+                    <div class="fw-bold heading2" style="font-size: 70px;font-family: 'pecita';"
+                        data-aos="fade-up-right" data-aos-duration="1500" data-aos-delay="500">Mohammad</div>
+                    <div class="fw-bold heading3" style="font-size: 70px;font-family: 'pecita';"
+                        data-aos="fade-up-right" data-aos-duration="1500" data-aos-delay="1000">Fauzan Alhafizh</div>
+                    <div class="fw-semibold heading4" style="font-size: 25px; color: #FCA311;" data-aos="fade-up-right"
+                        data-aos-duration="1500" data-aos-delay="1500">UI/UX Designer + Developer</div>
+                    <p class="fs-5 pt-2 heading5" data-aos="fade-up-right" data-aos-duration="1500"
+                        data-aos-delay="2000">Halo
+                        ini design portofolio yang mau saya deploy minggu depan mungkin doakan
                         lancar dan diberi kemudahan yaaa..</p>
-                    <button type="button" class="btn btn-warning btn-lg fw-semibold "><a href="#touch"
+                    <button type="button" class="btn btn-warning btn-lg fw-semibold hire-me "><a href="#touch"
                             style="text-decoration:none ; color:#ffffff">Hire Me.</a></button>
                 </div>
                 <div class="col-md-6">
-                    <img src="assets/img/People flying-bro.png" alt="content-images" width="600" />
+                    <img src="assets/img/People flying-bro.png" alt="content-images" width="600"
+                        data-aos="zoom-in-left" />
                 </div>
             </div>
         </div>
@@ -74,28 +86,55 @@
     <section id="about">
         <div class="container">
             <div class="row">
-                <div class="col text-warning fw-semibold pt-5">
+                <div class="col text-warning fw-semibold pt-5" data-aos="fade-down">
                     Who i am...
                 </div>
             </div>
             <div class="row">
-                <div class="col mb-3 fw-bold fs-1">
+                <div class="col mb-3 fw-bold fs-1" data-aos="fade-down" data-aos-delay="500">
                     About Me.
                 </div>
                 <div class="row">
-                    <div class="col-md-5  me-5">
-                        <p style="font-size: 16px;">I am Moh. Fauzan Alhafizh, a 20 years old indonesian freelance
+                    <div class="col-md-6  me-5" style="font-size: 16px; font-weight: 600;text-align: justify;">
+                        <div class="mb-3" data-aos="fade-down" data-aos-delay="1000">I am Moh. Fauzan Alhafizh, a 20
+                            years old
+                            indonesian freelance
                             Front-End Developers. I’m student from STTIKOM INSAN UNGGUL CILEGON who likes making
-                            anything i think with web technologies.</p>
-                        <p>I like to resolve design problem, create smart user interface and imagine useful interaction,
+                            anything i think with web technologies.
+                        </div>
+                        <div class="mb-4" data-aos="fade-down" data-aos-delay="1500">I like to resolve design problem,
+                            create smart
+                            user interface and imagine useful interaction,
                             developing rich web experiences and web applications.
-                            when not working around with code, I study how to escape from University. Actually for hire
-                        </p>
+                            when not working around with code, I study how to escape from University, Actually for hire.
+                        </div>
+                        <div>
+                            <img src="assets/img/logo/atom.png" alt="react" width="80" class="me-3" data-aos="zoom-in"
+                                data-aos-delay="1600">
+                            <img src="assets/img/logo/html.png" alt="react" width="80" class="me-3" data-aos="zoom-in"
+                                data-aos-delay="1700">
+                            <img src="assets/img/logo/java-script.png" alt="react" width="80" class="me-4"
+                                data-aos="zoom-in" data-aos-delay="1800">
+                            <img src="assets/img/logo/ux-design.png" alt="react" width="80" class="me-3"
+                                data-aos="zoom-in" data-aos-delay="1900">
+                        </div>
+                        <div>
+                            <span style=" margin-left: 10px;" data-aos="zoom-in" data-aos-delay="1600">REACT</span>
+                            <span style=" margin-left: 48px;" data-aos="zoom-in" data-aos-delay="1700">HTML</span>
+                            <span style=" margin-left: 26px;" data-aos="zoom-in" data-aos-delay="1800">JACASRIPT</span>
+                            <span style=" margin-left: 45px;" data-aos="zoom-in" data-aos-delay="1900">UI/UX</span>
+
+                        </div>
+
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4" data-aos="flip-right">
                         <img src="assets/img/PhotoProfile.png" alt="" style="border-radius: 20px;">
                     </div>
                 </div>
+                <div class="row">
+
+                </div>
+
             </div>
         </div>
     </section>
@@ -105,10 +144,10 @@
     <section id="touch">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-up">
                     <img src="assets/img/shake.png" alt="shakehand" height="700px">
                 </div>
-                <div class="col-md" style="padding-top: 100px; padding-left: 100px;">
+                <div class="col-md" style="padding-top: 100px; padding-left: 100px;" data-aos="fade-left">
                     <div style="font-size: 100px; color: #000000; font-weight: 700;" class="text-end">Get In Touch.
                     </div>
                     <div class="fw-3 fs-3 text-end">Although I’m not currently looking for any new opportunities, my
@@ -131,13 +170,13 @@
     <section id="projects">
         <div class="container">
             <div class="row text-center">
-                <div class="col">
-                    <h2>My Projects</h2>
+                <div class="col fw-bold fs-1 mb-3" data-aos="fade-down">
+                    <div>My Projects</div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="zoom-in">
                         <img src="assets/img/projects.jpg" class="card-img-top" alt="..." />
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -146,7 +185,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="zoom-in" data-aos-delay="100">
                         <img src="assets/img/projects.jpg" class="card-img-top" alt="..." />
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -155,7 +194,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="zoom-in" data-aos-delay="200">
                         <img src="assets/img/projects.jpg" class="card-img-top" alt="..." />
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -170,7 +209,7 @@
 
     <!-- contact me -->
     <section id="contact">
-        <div class="container">
+        <div class="container" data-aos="fade-down">
             <div class="row text-center mb-3">
                 <div class="col">
                     <h2>Contact Me</h2>
@@ -231,13 +270,44 @@
     <!-- footer -->
     <footer class="text-white text-center p-3 justify-content-center opacity-75" style="background-color:#14213d">
         <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https:www.instagram.com/fauzanalhfzh/"
-                target="_blank" class="text-white fw-bold">Mohammad Fauzan Alhafizh</a></p>
+                target="_blank" class="text-white fw-bold">Mohammad Fauzan
+                Alhafizh</a></p>
     </footer>
     <!-- end of footer -->
+
+    <!-- script bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
         </script>
+    <!-- end of script bootstrap -->
 
+    <!-- script aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1500, // values from 0 to 3000, with step 50ms
+            once: true, // whether animation should happen only once - while scrolling down
+        });
+    </script>
+    <!-- end of script aos -->
+
+    <!-- script GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/TextPlugin.min.js"></script>
+
+    <script>
+        gsap.registerPlugin(TextPlugin);
+        gsap.from('.heading1', { duration: 2, delay: 1, text: "" })
+        gsap.from('.heading2', { duration: 1, delay: 2, text: "" })
+        gsap.from('.heading3', { duration: 1, delay: 3, text: "" })
+        gsap.from('.heading4', { duration: 1, delay: 4, text: "" })
+        gsap.from('.heading5', { duration: 3, delay: 5, text: "" })
+        gsap.from('.hire-me', { duration: 2, delay: 6, x: -1000, ease: 'back', opacity: 0 })
+    </script>
+
+    <!-- end of GSAP -->
+
+    <!-- script googlesheet -->
     <script>
         const scriptURL = 'https://script.google.com/macros/s/AKfycbz-PhMmqXN3qnBlM3xb_WaXcLE8-mKnOvKjsTCqqZayZ3gm1WmuaBS1DAWVAWGfr-1CYg/exec'
         const form = document.forms['myPortfolio-contact-form']
@@ -269,6 +339,7 @@
                 .catch(error => console.error('Error!', error.message))
         })
     </script>
+    <!-- end of script googlesheet -->
 
 </body>
 

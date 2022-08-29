@@ -8,7 +8,7 @@ section {
 }
 
 body {
-  background-color: #e5e5e5;
+  background-color: #181a18;
   font-family: 'poppins', sans-serif;
 }
 
@@ -16,9 +16,9 @@ body {
   padding: 5rem;
 }
 
-#content {
+/* #content {
   padding-top: 0.5rem;
-}
+} */
 
 #about {
   padding: 5rem;

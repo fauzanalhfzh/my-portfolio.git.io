@@ -3,6 +3,30 @@
   src: url(assets/fonts/pecita/Pecita.otf);
 }
 
+.navbar-brand {
+  font-variation-settings: 'wght', 900, 'ital' 1;
+  text-shadow: none;
+}
+
+.navbar-brand:hover {
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-text-stroke: 1px #e5e5e5;
+  font-family: 'Poppins', sans-serif;
+  font-variation-settings: 'wght', 100, 'ital' 0;
+  font-size: 1.5em;
+  color: transparent;
+  text-shadow: 3px 3px 0px #165954, 6px 6px 0px #f9ac66, 9px 9px 0px #ed6b5b, 15px 15px 10px #252525;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  background-color: #fca311;
+}
+
 section {
   min-height: 100vh;
 }

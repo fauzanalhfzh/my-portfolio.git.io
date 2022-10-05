@@ -19,12 +19,17 @@
   font-variation-settings: 'wght', 100, 'ital' 0;
   font-size: 1.5em;
   color: transparent;
-  text-shadow: 3px 3px 0px #165954, 6px 6px 0px #f9ac66, 9px 9px 0px #ed6b5b, 15px 15px 10px #252525;
+  text-shadow: 4px 4px 0px #f9ac66, 8px 8px 0px #ed6b5b, 10px 10px 5px #e5e5e5e5;
 }
 
 .nav-link:hover {
   cursor: pointer;
   background-color: #fca311;
+  transition: ease 0.5s;
+  -webkit-transition: ease 0.5s;
+  -moz-transition: ease 0.5s;
+  -ms-transition: ease 0.5s;
+  -o-transition: ease 0.5s;
 }
 
 section {
